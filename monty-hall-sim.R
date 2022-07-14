@@ -33,8 +33,6 @@ monty_hall_problem <- function(x,strategy='change'){
   }
 }
 
-# monty_hall_problem(strategy = 'keep')
-# sapply(1:100, monty_hall_problem,strategy='change')
 
 game_sim <- function(nsim=100,strategy='change'){
   results <- sapply(1:nsim, monty_hall_problem,strategy=strategy)
