@@ -39,6 +39,6 @@ game_sim <- function(nsim=100,strategy='change'){
   return(sum(results)/nsim)
 }
 
-game_sim(nsim=1000, strategy = 'keep')
+game_sim(nsim=10000, strategy = 'keep')
 
 
